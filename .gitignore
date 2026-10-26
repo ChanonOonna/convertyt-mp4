@@ -11,6 +11,9 @@ error.log.old
 # Machine-specific shortcut: points at D:\botdowyoutomp4 and stores the Windows user/computer name
 *.lnk
 
+# Personal resume notes about this project
+RESUME.md
+
 # Local editor / Claude Code settings
 .claude/settings.local.json
 .notebook/

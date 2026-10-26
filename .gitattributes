@@ -1,0 +1,3 @@
+# cmd.exe can misread batch files with LF-only line endings (goto/call labels break),
+# so always check them out with CRLF, whatever the cloner's git settings or a ZIP download.
+*.bat text eol=crlf
