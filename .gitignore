@@ -1,0 +1,22 @@
+# Python environment and caches (the launcher builds .venv per machine)
+.venv/
+__pycache__/
+*.pyc
+
+# Per-user data written by the app (paths contain the Windows user name; log lists downloaded URLs)
+settings.json
+error.log
+error.log.old
+
+# Machine-specific shortcut: points at D:\botdowyoutomp4 and stores the Windows user/computer name
+*.lnk
+
+# Local editor / Claude Code settings
+.claude/settings.local.json
+.notebook/
+
+# Secrets, in case any are added later (e.g. YouTube cookies for age-restricted videos)
+.env
+.env.*
+cookies*.txt
+*.cookies

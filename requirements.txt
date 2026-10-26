@@ -1,0 +1,4 @@
+yt-dlp[default]
+imageio-ffmpeg
+customtkinter>=6,<7
+pillow
